@@ -112,8 +112,9 @@ set_clock_transition -fall 0.1 [get_clocks "clk"]
 set_clock_uncertainty 0.01 [get_ports "clk"]
 set_input_delay -max 0.8 [get_ports "rst"] -clock [get_clocks "clk"]
 set_output_delay -max 0.8 [get_ports "count"] -clock [get_clocks "clk"]
+```
 
-#### Synthesis RTL Schematic :
+### Synthesis RTL Schematic :
 ![Screenshot (183)](https://github.com/user-attachments/assets/51fa1bd9-6dcb-4112-b760-f59a001ac306)
 
 #### Area report:
